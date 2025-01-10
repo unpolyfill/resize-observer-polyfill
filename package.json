@@ -50,5 +50,6 @@
     "doc": {
       "basename": "/resize-observer-polyfill/"
     }
-  }
+  },
+  "version": "1.0.0"
 }
