@@ -1,0 +1,54 @@
+{
+  "name": "@unpolyfill/resize-observer-polyfill",
+  "description": "Unpolyfill resize-observer-polyfill",
+  "homepage": "https://github.com/unpolyfill/resize-observer-polyfill#readme",
+  "bugs": {
+    "url": "https://github.com/unpolyfill/resize-observer-polyfill/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/unpolyfill/resize-observer-polyfill.git"
+  },
+  "funding": "https://github.com/sponsors/unpolyfill",
+  "author": {
+    "name": "Guo Yunhe",
+    "email": "i@guoyunhe.me"
+  },
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "CHANGELOG.md",
+    "LICENSE",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "rive build",
+    "build:watch": "rive build --watch",
+    "lint": "rive lint",
+    "lint:fix": "rive lint --fix",
+    "start": "rive start",
+    "test": "rive test",
+    "test:ui": "rive test --ui",
+    "test:watch": "rive test --watch"
+  },
+  "prettier": "prettier-config-rive",
+  "devDependencies": {
+    "@mdx-js/react": "^3.0.0",
+    "@types/node": "^20.0.0",
+    "@types/react": "^18.3.18",
+    "@types/react-dom": "^18.2.0",
+    "react": "^18.2.0",
+    "react-doc-ui": "^2.3.0",
+    "react-dom": "^18.2.0",
+    "rive": "^3.0.1",
+    "typescript": "^5.0.0"
+  },
+  "rive": {
+    "template": "base",
+    "doc": {
+      "basename": "/resize-observer-polyfill/"
+    }
+  }
+}
